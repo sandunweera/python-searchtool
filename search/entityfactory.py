@@ -1,7 +1,7 @@
-from organizations import OrganizationManager
-from tickets import TicketManager
-from users import UserManager
-import const
+from search.organizations import OrganizationManager
+from search.tickets import TicketManager
+from search.users import UserManager
+from core import const
 
 
 class EntityFactory:

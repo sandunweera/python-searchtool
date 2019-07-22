@@ -1,5 +1,5 @@
 from whoosh.fields import Schema, ID, TEXT, BOOLEAN, NUMERIC
-from entity import EntityManager
+from search.entity import EntityManager
 
 
 class UserManager(EntityManager):

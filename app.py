@@ -1,8 +1,8 @@
-from entityfactory import EntityFactory
-from statemachine import StateMachine
-from searchrelations import SearchRelationManager
+from search.entityfactory import EntityFactory
+from core.statemachine import StateMachine
+from search.searchrelations import SearchRelationManager
 from enum import Enum
-import const
+from core import const
 
 
 class State(Enum):
